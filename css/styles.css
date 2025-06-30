@@ -646,6 +646,7 @@ footer {
     padding: 2rem;
     border: 1px solid var(--neutral-200);
     border-radius: 0.5rem;
+    background-color: white;
 }
 
 .step-number {
@@ -901,6 +902,7 @@ footer {
     .step {
         padding-top: 3rem;
         text-align: center;
+        background-color: white;
     }
     
     .testimonial-author {
