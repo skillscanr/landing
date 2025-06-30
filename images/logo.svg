@@ -1,0 +1,11 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Background -->
+  <rect width="200" height="50" fill="none"/>
+  
+  <!-- Logo Text -->
+  <text x="10" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#ffb740">Skill<tspan fill="#10b981">Scanr</tspan></text>
+  
+  <!-- Logo Icon -->
+  <circle cx="175" cy="25" r="15" fill="#ffb740"/>
+  <path d="M175,15 L175,35 M165,25 L185,25" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9fafb" rx="10" ry="10"/>
+  
+  <!-- Dashboard UI -->
+  <rect x="50" y="50" width="500" height="300" fill="white" stroke="#e5e7eb" stroke-width="2" rx="8" ry="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="500" height="50" fill="#10b981" rx="8" ry="8"/>
+  <text x="80" y="82" font-family="Arial" font-size="18" fill="white">Recruiter Dashboard</text>
+  
+  <!-- Left Panel -->
+  <rect x="50" y="100" width="150" height="250" fill="#f3f4f6" rx="0" ry="0"/>
+  
+  <!-- Menu Items -->
+  <rect x="60" y="120" width="130" height="30" fill="#10b981" rx="4" ry="4"/>
+  <text x="80" y="140" font-family="Arial" font-size="12" fill="white">Candidates</text>
+  
+  <rect x="60" y="160" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="180" font-family="Arial" font-size="12" fill="#374151">Job Postings</text>
+  
+  <rect x="60" y="200" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="220" font-family="Arial" font-size="12" fill="#374151">Interviews</text>
+  
+  <rect x="60" y="240" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="260" font-family="Arial" font-size="12" fill="#374151">Analytics</text>
+  
+  <rect x="60" y="280" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="300" font-family="Arial" font-size="12" fill="#374151">Settings</text>
+  
+  <!-- Main Content - Candidate Cards -->
+  <rect x="220" y="120" width="150" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <circle cx="245" cy="145" r="15" fill="#ffb740"/>
+  <text x="270" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Alex Johnson</text>
+  <text x="270" y="160" font-family="Arial" font-size="12" fill="#374151">Software Developer</text>
+  <rect x="240" y="175" width="110" height="15" fill="#f3f4f6" rx="10" ry="10"/>
+  <rect x="240" y="175" width="88" height="15" fill="#10b981" rx="10" ry="10"/>
+  <text x="355" y="187" font-family="Arial" font-size="10" fill="#374151">88%</text>
+  
+  <rect x="380" y="120" width="150" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <circle cx="405" cy="145" r="15" fill="#10b981"/>
+  <text x="430" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Maria Garcia</text>
+  <text x="430" y="160" font-family="Arial" font-size="12" fill="#374151">UX Designer</text>
+  <rect x="400" y="175" width="110" height="15" fill="#f3f4f6" rx="10" ry="10"/>
+  <rect x="400" y="175" width="93" height="15" fill="#ffb740" rx="10" ry="10"/>
+  <text x="515" y="187" font-family="Arial" font-size="10" fill="#374151">93%</text>
+  
+  <!-- Stats Section -->
+  <rect x="220" y="240" width="310" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <text x="240" y="265" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Hiring Statistics</text>
+  
+  <!-- Bar Chart -->
+  <rect x="240" y="280" width="40" height="20" fill="#ffb740" rx="2" ry="2"/>
+  <rect x="290" y="280" width="60" height="20" fill="#10b981" rx="2" ry="2"/>
+  <rect x="360" y="280" width="30" height="20" fill="#ffb740" rx="2" ry="2"/>
+  <rect x="400" y="280" width="80" height="20" fill="#10b981" rx="2" ry="2"/>
+  
+  <text x="240" y="315" font-family="Arial" font-size="10" fill="#374151">Applied</text>
+  <text x="290" y="315" font-family="Arial" font-size="10" fill="#374151">Matched</text>
+  <text x="360" y="315" font-family="Arial" font-size="10" fill="#374151">Interviewed</text>
+  <text x="400" y="315" font-family="Arial" font-size="10" fill="#374151">Hired</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f9fafb" rx="10" ry="10"/>
+  
+  <!-- Dashboard UI -->
+  <rect x="50" y="50" width="500" height="300" fill="white" stroke="#e5e7eb" stroke-width="2" rx="8" ry="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="500" height="50" fill="#ffb740" rx="8" ry="8"/>
+  <text x="80" y="82" font-family="Arial" font-size="18" fill="white">SkillScanr Dashboard</text>
+  
+  <!-- Left Panel -->
+  <rect x="50" y="100" width="150" height="250" fill="#f3f4f6" rx="0" ry="0"/>
+  
+  <!-- Menu Items -->
+  <rect x="60" y="120" width="130" height="30" fill="#ffb740" rx="4" ry="4"/>
+  <text x="80" y="140" font-family="Arial" font-size="12" fill="white">Dashboard</text>
+  
+  <rect x="60" y="160" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="180" font-family="Arial" font-size="12" fill="#374151">Jobs</text>
+  
+  <rect x="60" y="200" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="220" font-family="Arial" font-size="12" fill="#374151">Candidates</text>
+  
+  <rect x="60" y="240" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="260" font-family="Arial" font-size="12" fill="#374151">Analytics</text>
+  
+  <rect x="60" y="280" width="130" height="30" fill="white" rx="4" ry="4"/>
+  <text x="80" y="300" font-family="Arial" font-size="12" fill="#374151">Settings</text>
+  
+  <!-- Main Content -->
+  <rect x="220" y="120" width="310" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <text x="240" y="150" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Skills Match Overview</text>
+  <rect x="240" y="165" width="270" height="20" fill="#f3f4f6" rx="10" ry="10"/>
+  <rect x="240" y="165" width="200" height="20" fill="#10b981" rx="10" ry="10"/>
+  <text x="450" y="180" font-family="Arial" font-size="12" fill="#374151">75%</text>
+  
+  <!-- Charts -->
+  <rect x="220" y="220" width="150" height="130" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <circle cx="295" cy="280" r="50" fill="none" stroke="#ffb740" stroke-width="20" stroke-dasharray="251.2 314"/>
+  <text x="280" y="290" font-family="Arial" font-size="20" font-weight="bold" fill="#111827">80%</text>
+  <text x="260" y="240" font-family="Arial" font-size="12" fill="#374151">Candidate Match</text>
+  
+  <rect x="380" y="220" width="150" height="130" fill="white" stroke="#e5e7eb" stroke-width="1" rx="4" ry="4"/>
+  <!-- Bar Chart -->
+  <rect x="400" y="260" width="20" height="70" fill="#ffb740" rx="2" ry="2"/>
+  <rect x="430" y="280" width="20" height="50" fill="#10b981" rx="2" ry="2"/>
+  <rect x="460" y="240" width="20" height="90" fill="#ffb740" rx="2" ry="2"/>
+  <rect x="490" y="290" width="20" height="40" fill="#10b981" rx="2" ry="2"/>
+  <text x="420" y="240" font-family="Arial" font-size="12" fill="#374151">Skills Analysis</text>
+</svg>
