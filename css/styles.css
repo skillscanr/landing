@@ -631,7 +631,12 @@ footer {
 /* How It Works Section */
 .how-it-works-section {
     padding: 5rem 0;
-    background-color: white;
+    background-color: var(--neutral-50);
+}
+
+.how-it-works-recruiters-section {
+  padding: 5rem 0;
+  background-color: white;
 }
 
 .steps-container {
@@ -675,7 +680,12 @@ footer {
 /* Features Section */
 .features-section {
     padding: 5rem 0;
-    background-color: var(--neutral-50);
+    background-color: white;
+}
+
+.features-recruiters-section {
+  padding: 5rem 0;
+  background-color: var(--neutral-50);
 }
 
 .features-grid {
