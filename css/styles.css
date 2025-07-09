@@ -871,6 +871,19 @@ footer {
         align-items: center;
         gap: 1rem;
     }
+
+    nav .mobile-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    nav .mobile-nav-register {
+      display: none;
+    }
+
     
     .cta-buttons {
         width: 100%;
