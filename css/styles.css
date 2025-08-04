@@ -902,6 +902,71 @@ footer {
     line-height: 1.5;
 }
 
+/* Legal Content */
+.legal-content-section {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.legal-content h1 {
+    font-size: 2.5rem;
+    color: var(--neutral-900);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.legal-content h2 {
+    font-size: 1.75rem;
+    color: var(--neutral-900);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-light);
+    padding-bottom: 0.5rem;
+}
+
+.legal-content h3 {
+    font-size: 1.25rem;
+    color: var(--neutral-800);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.legal-content p {
+    margin-bottom: 1.5rem;
+    color: var(--neutral-700);
+}
+
+.legal-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.legal-content li {
+    margin-bottom: 0.75rem;
+    color: var(--neutral-700);
+}
+
+.legal-content strong {
+    color: var(--neutral-800);
+    font-weight: 600;
+}
+
+.legal-content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.legal-content a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
 /* Call to Action */
 .cta-section {
     padding: 5rem 0;
