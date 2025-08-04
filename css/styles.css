@@ -215,6 +215,14 @@ nav {
     color: var(--neutral-900);
 }
 
+.hero-text .hero-subheader {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-600);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
 .hero-text .subheadline,
 .hero-text p {
     font-size: 1.125rem;
@@ -311,9 +319,18 @@ nav {
 
 .tab-panel h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     color: var(--neutral-900);
+}
+
+.tab-panel .tab-subtitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--primary-600);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.4;
 }
 
 .benefits {
@@ -358,7 +375,6 @@ footer {
     padding: 4rem 0 2rem;
     background-color: var(--neutral-800);
     color: white;
-    margin-top: 4rem;
 }
 
 .footer-content {
@@ -545,6 +561,15 @@ footer {
     color: var(--neutral-800);
 }
 
+.solution-features em {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--neutral-600);
+    font-style: normal;
+    line-height: 1.3;
+}
+
 .solution-card .btn-primary,
 .solution-card .btn-secondary {
     width: 100%;
@@ -709,6 +734,15 @@ footer {
     color: var(--neutral-900);
 }
 
+.feature em {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--neutral-600);
+    font-style: normal;
+    line-height: 1.3;
+}
+
 /* Testimonials Section */
 .testimonials-section {
     padding: 5rem 0;
@@ -820,6 +854,52 @@ footer {
     background-color: var(--neutral-800);
     color: white;
     text-align: center;
+}
+
+/* Persona Callout */
+.persona-callout-section {
+    padding: 4rem 0;
+    background-color: var(--neutral-50);
+    text-align: center;
+}
+
+.persona-callout h2 {
+    font-size: 2rem;
+    color: var(--neutral-900);
+    margin-bottom: 1rem;
+}
+
+.persona-callout p {
+    font-size: 1.25rem;
+    color: var(--neutral-600);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Persona Introduction */
+.persona-intro-section {
+    padding: 4rem 0;
+    background-color: var(--primary-light);
+    text-align: center;
+}
+
+.persona-intro h2 {
+    font-size: 2.25rem;
+    color: var(--neutral-900);
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3;
+}
+
+.persona-intro p {
+    font-size: 1.25rem;
+    color: var(--neutral-600);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 /* Call to Action */
@@ -946,5 +1026,217 @@ footer {
         flex-direction: column;
         gap: 1rem;
         text-align: center;
+    }
+}
+
+/* Register Interest Form Styling */
+.register-interest-section {
+    padding: 4rem 0;
+    background-color: var(--neutral-50);
+    text-align: center;
+}
+
+.register-form-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.register-form-wrapper h2 {
+    font-size: 2rem;
+    color: var(--neutral-800);
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-intro {
+    font-size: 1.1rem;
+    color: var(--neutral-600);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Override Mailchimp default styles */
+#mc_embed_signup {
+    background: transparent !important;
+    clear: none !important;
+    font: inherit !important;
+    width: 100% !important;
+}
+
+#mc_embed_signup_scroll {
+    width: 100% !important;
+}
+
+.indicates-required {
+    margin-bottom: 1.5rem !important;
+    color: var(--neutral-500) !important;
+    font-size: 0.875rem !important;
+    text-align: left !important;
+}
+
+.asterisk {
+    color: var(--primary) !important;
+    font-weight: bold !important;
+}
+
+.mc-field-group {
+    margin-bottom: 1.5rem !important;
+    text-align: left !important;
+}
+
+.mc-field-group label {
+    display: block !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 500 !important;
+    color: var(--neutral-700) !important;
+    font-size: 0.95rem !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.mc-field-group input[type="email"],
+.mc-field-group input[type="text"] {
+    width: 100% !important;
+    padding: 0.75rem 1rem !important;
+    border: 1px solid var(--neutral-300) !important;
+    border-radius: 0.375rem !important;
+    font-size: 1rem !important;
+    font-family: 'Inter', sans-serif !important;
+    color: var(--neutral-800) !important;
+    background-color: white !important;
+    transition: border-color 0.2s, box-shadow 0.2s !important;
+    box-sizing: border-box !important;
+}
+
+.mc-field-group input[type="email"]:focus,
+.mc-field-group input[type="text"]:focus {
+    outline: none !important;
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(255, 183, 64, 0.1) !important;
+}
+
+.mc-field-group input::placeholder {
+    color: var(--neutral-400) !important;
+}
+
+/* Form row for side-by-side fields */
+.form-row {
+    display: flex !important;
+    gap: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.form-row .mc-field-group {
+    flex: 1 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Submit button styling */
+.clear {
+    margin-top: 2rem !important;
+}
+
+#mc-embedded-subscribe {
+    background-color: var(--primary) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.375rem !important;
+    padding: 0.875rem 2rem !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    font-family: 'Inter', sans-serif !important;
+    cursor: pointer !important;
+    transition: all 0.2s !important;
+    width: 100% !important;
+    max-width: 200px !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: var(--primary-dark) !important;
+    transform: translateY(-1px) !important;
+}
+
+#mc-embedded-subscribe:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(255, 183, 64, 0.3) !important;
+}
+
+/* Success/Error messages */
+.response {
+    margin-top: 1rem !important;
+    padding: 0.75rem !important;
+    border-radius: 0.375rem !important;
+    font-size: 0.875rem !important;
+    text-align: center !important;
+}
+
+#mce-success-response {
+    background-color: #d1fae5 !important;
+    color: #065f46 !important;
+    border: 1px solid #a7f3d0 !important;
+}
+
+#mce-error-response {
+    background-color: #fee2e2 !important;
+    color: #991b1b !important;
+    border: 1px solid #fca5a5 !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 640px) {
+    .register-form-wrapper {
+        margin: 0 1rem;
+        padding: 2rem 1.5rem;
+    }
+    
+    .form-row {
+        flex-direction: column !important;
+        gap: 0 !important;
+    }
+    
+    .form-row .mc-field-group {
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .register-form-wrapper h2 {
+        font-size: 1.75rem;
+    }
+}
+
+/* Hero form specific styling */
+.hero-form {
+    margin-top: 0;
+    padding: 2rem;
+    max-width: 400px;
+}
+
+.hero-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-form .form-intro {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Ensure hero forms work well on mobile */
+@media (max-width: 768px) {
+    .hero-form {
+        margin: 2rem 1rem 0 1rem;
+        padding: 1.5rem;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+    }
+    
+    .hero-text {
+        margin-bottom: 2rem;
     }
 }
